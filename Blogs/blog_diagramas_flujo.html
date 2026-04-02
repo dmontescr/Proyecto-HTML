@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Conquer Blocks | Blog - Diagramas de Flujo</title>
+    <meta name="description" content="Blog - Diagramas de Flujo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <header>
+      <picture
+        ><img
+          src="../Imagenes/Header/Logo_ConquerBlocks_header.avif"
+          alt="Logo ConquerBlocks header"
+      /></picture>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../quienes_somos.html">Quienes somos</a></li>
+          <li><a href="../cursos.html">Cursos</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../registro.html">Registro</a></li>
+          <li><a href="../login.html">Login</a></li>
+          <li><a href="../contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <h1>¿Qué es un Diagrama de Flujo y Por Qué es tan Útil?</h1>
+      <p><em>Autor: Bienvenido Sáez</em></p>
+
+      <section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/zuCHSKLIibo?si=zUebZrx4hu_kC9NG"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section>
+        <p>
+          ¿Alguna vez te has preguntado cómo los programadores planifican sus
+          programas antes de escribir una sola línea de código? ¿O cómo se
+          representan los procesos de una manera visual y sencilla? Todo esto se
+          hace con una herramienta muy poderosa llamada *diagrama de flujo*.
+          Pero, ¿qué es realmente? ¿Cómo se usa en programación? Y lo más
+          importante, ¿por qué es tan útil para entender cualquier proceso? En
+          este artículo, te explicaremos de manera clara y sencilla qué es un
+          diagrama de flujo y cómo puede ayudarte en la programación y en la
+          vida cotidiana.
+        </p>
+
+        <h2>¿Qué es un Diagrama de Flujo?</h2>
+        <p>
+          Un *diagrama de flujo* es una representación visual de un proceso
+          mediante símbolos y flechas que indican el flujo y el orden de
+          ejecución. En pocas palabras, es un mapa que muestra los pasos a
+          seguir para resolver un problema o completar una tarea.
+        </p>
+        <p>
+          Por ejemplo, si queremos hacer un café, el diagrama de flujo de este
+          proceso sería:
+        </p>
+        <ol>
+          <li>Inicio</li>
+          <li>Calentar agua</li>
+          <li>Añadir café en el filtro</li>
+          <li>Verter el agua caliente</li>
+          <li>Servir en un taza</li>
+          <li>Fin</li>
+        </ol>
+        <p>
+          Cada paso se representa con una figura específica que indica su
+          función, y las flechas muestran el orden en que se deben ejecutar.
+          Esto facilita la comprensión de procesos y algoritmos.
+        </p>
+
+        <h2>¿Para Qué Sirve un Diagrama de Flujo en Programación?</h2>
+        <p>
+          Los diagramas de flujo no solo son útiles para programadores, sino
+          también para cualquier persona que necesite organizar procesos
+          complejos. Sus principales beneficios son:
+        </p>
+        <ul>
+          <li>
+            **Organizar ideas antes de programar:** Permiten visualizar la
+            lógica de un programa antes de escribir código.
+          </li>
+          <li>
+            **Detectar errores o pasos innecesarios:** Al ser visuales, ayudan a
+            identificar problemas en la lógica antes de implementarla.
+          </li>
+          <li>
+            **Facilitar la comunicación:** Son una excelente herramienta para
+            explicar cómo funciona un programa sin necesidad de escribir código.
+          </li>
+        </ul>
+
+        <h2>Símbolos Básicos de un Diagrama de Flujo</h2>
+        <p>
+          Para construir un diagrama de flujo, se utilizan diferentes símbolos
+          que representan distintas funciones:
+        </p>
+        <ul>
+          <li>🟢 **Óvalo:** Representa el *inicio* y el *fin* del proceso.</li>
+          <li>
+            🔷 **Rombo:** Se usa para tomar *decisiones* (por ejemplo, "¿tienes
+            leche? Sí / No").
+          </li>
+          <li>
+            🟩 **Rectángulo:** Representa una *acción* o proceso (por ejemplo,
+            "sumar dos números").
+          </li>
+          <li>➡ **Flecha:** Indica la *dirección* del flujo del proceso.</li>
+        </ul>
+        <p>
+          Con estos elementos, podemos representar cualquier algoritmo o proceso
+          de forma clara y ordenada.
+        </p>
+
+        <h2>Ejemplo Práctico de un Diagrama de Flujo en Programación</h2>
+        <p>
+          Imagina que queremos hacer un programa que determine si un número es
+          par o impar. En código Python sería algo así:
+        </p>
+        <code
+          >```python <br />
+          numero = int(input("Introduce un número: ")) <br />
+          resto = numero % 2 <br />
+          if resto == 0: <br />
+          &nbsp; print("El número es par") <br />
+          else: <br />
+          &nbsp; print("El número es impar") <br />
+          print("Fin del programa") ```</code
+        >
+        <p>
+          Si representamos este proceso en un **diagrama de flujo**, se vería
+          así:
+        </p>
+        <ol>
+          <li>**Inicio**</li>
+          <li>Pedir un número al usuario</li>
+          <li>Calcular el resto de la división entre el número y 2</li>
+          <li>
+            Evaluar si el resto es 0
+            <ul>
+              <li>Si es 0 → Mostrar "El número es par"</li>
+              <li>Si no es 0 → Mostrar "El número es impar"</li>
+            </ul>
+          </li>
+          <li>**Fin**</li>
+        </ol>
+        <p>
+          Este diagrama nos ayuda a visualizar la lógica antes de escribir el
+          código, reduciendo errores y facilitando la comprensión del proceso.
+        </p>
+
+        <h2>Beneficios de Usar Diagramas de Flujo</h2>
+        <p>Aprender a hacer diagramas de flujo tiene muchas ventajas:</p>
+        <ul>
+          <li>
+            **Simplifican problemas complejos:** Nos ayudan a desglosar un
+            problema en pasos pequeños y manejables.
+          </li>
+          <li>
+            **Mejoran la comprensión del código:** Son una herramienta excelente
+            para aprender y enseñar programación.
+          </li>
+          <li>
+            **Facilitan la depuración de errores:** Permiten detectar problemas
+            en la lógica antes de que lleguen al código.
+          </li>
+          <li>
+            **Se usan en muchas áreas:** No solo en programación, sino también
+            en negocios, logística y procesos industriales.
+          </li>
+        </ul>
+        <p>
+          Los diagramas de flujo son herramientas esenciales que, una vez que
+          aprendas a utilizarlas, se convertirán en una parte fundamental de tu
+          proceso de planificación.
+        </p>
+
+        <h2>Conclusión</h2>
+        <p>
+          En resumen, un **diagrama de flujo** es una forma visual de
+          representar un proceso o algoritmo mediante símbolos y flechas. Es una
+          herramienta clave en la programación porque nos ayuda a organizar
+          ideas, detectar errores y mejorar la lógica de nuestro código.
+        </p>
+
+        <h2>Aprende Más con Conquer Blocks</h2>
+        <p>
+          En **Conquer Blocks** somos apasionados de la tecnología y queremos
+          ayudarte a entenderla mejor. Si te interesa aprender más sobre
+          diagramas de flujo, programación o cualquier otro concepto
+          tecnológico, ¡síguenos y acompáñanos en este viaje de aprendizaje!
+        </p>
+      </section>
+
+      <aside>
+        <h2>Artículos relacionados</h2>
+        <article>
+          <picture>
+            <img
+              src="../Imagenes/Blog/Blog - Diagramas de flujo.jpg"
+              alt="Blog - Diagramas de flujo"
+              width="300"
+            />
+          </picture>
+          <h2>¿Qué es un Diagrama de Flujo y Por Qué es tan Útil?</h2>
+          <p>
+            Un *diagrama de flujo* es una representación visual de un proceso
+            mediante símbolos y flechas que indican el flujo y el orden de
+            ejecución. En pocas
+          </p>
+          <p>
+            <a href="blog_diagramas_flujo.html">Ver más</a>
+          </p>
+        </article>
+
+        <article>
+          <picture>
+            <img
+              src="../Imagenes/Blog/Blog - Algoritmos.jpg"
+              alt="Blog - Algoritmos"
+              width="300"
+            />
+          </picture>
+          <h2>¿Qué es un Algoritmo y Por Qué es tan Importante?</h2>
+          <p>
+            Un *algoritmo* es un conjunto de instrucciones ordenadas y definidas
+            para resolver un problema o realizar una tarea. Es como una receta
+            de cocina: tienes
+          </p>
+          <p>
+            <a href="blog_algoritmos.html">Ver más</a>
+          </p>
+        </article>
+
+        <article>
+          <picture>
+            <img
+              src="../Imagenes/Blog/Blog - Bits y Bytes.jpg"
+              alt="Blog - Bits y Bytes"
+              width="300"
+            />
+          </picture>
+          <h2>Bits y Bytes: La Base del Mundo Digital</h2>
+          <p>
+            Todo lo que hacemos en el mundo digital, desde enviar un mensaje de
+            texto hasta ver un video en alta definición, depende de dos
+            elementos esenciales: los bits y los bytes.
+          </p>
+          <p>
+            <a href="blog_bits_bytes.html">Ver más</a>
+          </p>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <hr />
+      <p>Copyright &copy; 2026 By ConquerX</p>
+
+      <h2>Legal</h2>
+      <ul>
+        <li>
+          <a href="../terminos_condiciones.html">Términos y condiciones</a>
+        </li>
+        <li>
+          <a href="../politica_privacidad.html">Política de privacidad</a>
+        </li>
+        <li><a href="../politica_cookies.html">Política de cookies</a></li>
+      </ul>
+    </footer>
+
+    <script src="" async defer></script>
+  </body>
+</html>
