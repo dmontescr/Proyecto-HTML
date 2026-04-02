@@ -1,0 +1,1 @@
+Proyecto de final de módulo HTML de Máster de Desarrollo Full-Stack de Conquer Blocks. Es una página tipo informativa de academia, sin formato todavía ni funcionalidades todavía, que veremos más adelante con CSS y JavaScript.
